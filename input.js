@@ -1,35 +1,16 @@
 // setup interface to handle user input from stdin
 let connection;
-
+const { KEY_MAP } = require("./constants");
 
 const handleUserInput = function (key) {
   if (key === "\u0003") {
     process.exit();
   }
-  // if (key === "w") {
-  // }
-  // if (key === "s") {
-  // }
-  // if (key === "a") {
-  // }
-  // if (key === "d") {
-  // }
-  switch (key) {
-    case "m": {
-      connection.write("Say: Hey, there!!");
-    }
-    case 'w': {
-      connection.write("Move: up");
-    }
-    case "s": {
-      connection.write("Move: down");
-    }
-    case "a": {
-      connection.write("Move: left");
-    }
-    case "d": {
-      connection.write("Move: right");
-    }
+  console.log("outside",key)
+  if(key in KEY_MAP){
+    console.log(key)
+    const message = KEY_MAP[key];
+    connection.write(message);
   }
 };
 const setupInput = function (conn) {
