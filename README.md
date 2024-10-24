@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](![multiplayer-snake](https://github.com/user-attachments/assets/bca93cb4-1854-4f5e-bfab-92e5418a9e2d)
-!["screenshot description"](![snake](https://github.com/user-attachments/assets/52247d47-84dd-4603-9aaa-2f8851c40020)
+![A terminal-based Snake implementation](![snake](https://github.com/user-attachments/assets/52247d47-84dd-4603-9aaa-2f8851c40020)
+![Visual of Multiplayer](![multiplayer-snake](https://github.com/user-attachments/assets/bca93cb4-1854-4f5e-bfab-92e5418a9e2d)
 
 
 ## Getting Started
